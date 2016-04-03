@@ -1,0 +1,74 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+html, body {
+			height: 100%;
+			width: 100%;
+			margin: 0;
+			padding: 0;
+		  }
+
+.app {
+    position:absolute;             
+    left:50%;
+    top:50%;
+    height:50px;                   
+    width:225px;                   
+    text-align:center;
+    margin:-115px 0px 0px -112px;  
+}
+
+
+#imagen {
+  background-image: url(../img/batteryset.jpg);
+	display:inline-block;
+  height: 94px;
+  width: 94px;
+}
+
+.unknown {
+  background-position: 279px -93px;
+}
+
+.full {
+  background-position: 0px 0px;
+}
+
+.fullAC {
+  background-position: 0px 186px;
+}
+
+.charging {
+  background-position: -93px -93px;
+}
+
+.blow {
+  background-position: -279px 0px;
+}
+
+.empty {
+  background-position: 0px -93px;
+}
+
+.bmedium {
+  background-position: 186px 0px;
+}
+
+.almostfull {
+  background-position: -93px 0px;
+}
