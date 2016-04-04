@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-describe('app', function() {
+/*describe('app', function() {
     describe('initialize', function() {
         it('should bind deviceready', function() {
             runs(function() {
@@ -65,3 +65,4 @@ describe('app', function() {
         });
     });
 });
+*/
