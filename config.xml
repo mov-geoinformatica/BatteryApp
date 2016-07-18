@@ -6,4 +6,5 @@
   <gap:plugin name="org.apache.cordova.battery-status"/>
   <gap:plugin name="org.apache.cordova.dialogs"/>
   <icon src="icon.png"/>
+  <platform name="android></platform>
 </widget>
