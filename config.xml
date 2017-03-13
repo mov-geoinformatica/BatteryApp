@@ -4,8 +4,8 @@
   <author href="http://phonegap.com" email="sladra@udc.es">Susana Ladra</author>
   <content src="index.html"/>
   <plugin name="cordova-plugin-whitelist" spec="1.2.1" />
-  <plugin name="org.apache.cordova.battery-status" source="pgb" spec="0.2.12" />
-  <plugin name="org.apache.cordova.dialogs" source="pgb" spec="0.3.0" />
+  <plugin name="cordova-plugin-battery-status"/>
+  <plugin name="cordova-plugin-dialogs" />
   <icon src="icon.png"/>
   <platform name="android></platform>
 </widget>
