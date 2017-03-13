@@ -3,8 +3,8 @@
   <description>Permite conocer el estado de la batería.</description>
   <author href="http://phonegap.com" email="sladra@udc.es">Susana Ladra</author>
   <content src="index.html"/>
-  <gap:plugin name="org.apache.cordova.battery-status"/>
-  <gap:plugin name="org.apache.cordova.dialogs"/>
+  <plugin name="cordova-plugin-battery-status" source="npm"/>
+  <plugin name="cordova-plugin-dialogs" source="npm"/>
   <icon src="icon.png"/>
   <platform name="android></platform>
 </widget>
