@@ -7,5 +7,5 @@
   <plugin name="cordova-plugin-battery-status"/>
   <plugin name="cordova-plugin-dialogs" />
   <icon src="icon.png"/>
-  <platform name="android></platform>
+  <platform name="android"></platform>
 </widget>
